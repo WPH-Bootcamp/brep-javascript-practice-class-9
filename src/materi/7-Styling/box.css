@@ -1,0 +1,18 @@
+.box {
+  width: 100%;
+  height: auto;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+}
+
+.active {
+  background-color: red;
+  cursor: pointer;
+}
+
+.deactive {
+  background-color: gray;
+  user-select: none;
+  cursor: not-allowed;
+}
